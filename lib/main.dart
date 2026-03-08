@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'screens/expenses_home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Week 4 Nav Task',
       theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.blue),
+      home: const ExpensesHomePage(),
     );
   }
 }
